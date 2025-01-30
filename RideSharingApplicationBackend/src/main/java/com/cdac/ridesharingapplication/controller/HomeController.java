@@ -10,4 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/home")
 public class HomeController {
+	public String home()
+	{
+		return "Welcome to Ride Sharing Application";
+	}
 }
